@@ -20,7 +20,7 @@ export default function Header({
       {/* Logo */}
       <div className="header-brand">
         <div className="header-logo">
-          <img src="/favicon.png" alt="" width={28} height={28} />
+          <img src="./favicon.png" alt="" width={28} height={28} />
         </div>
         <div>
           <h2 className="header-title">Mo3adaly</h2>
