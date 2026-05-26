@@ -1,6 +1,8 @@
 /**
  * Header — App bar with logo, cycle/level/semester selects, and clear button.
  */
+import VisitorCounter from './VisitorCounter'
+
 export default function Header({
   currentCycle,
   currentLevel,
@@ -25,6 +27,9 @@ export default function Header({
         <div>
           <h2 className="header-title">Mo3adaly</h2>
           <p className="header-subtitle">Grade Calculator</p>
+          <div style={{marginTop:6}}>
+            <VisitorCounter />
+          </div>
         </div>
       </div>
 
